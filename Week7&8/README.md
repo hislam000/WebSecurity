@@ -12,6 +12,8 @@ Time spent: **6** hours spent in total
     - Tested in version:4.2
     - Fixed in version: 4.3
   - [ ] GIF Walkthrough: 
+  ![XSS](https://user-images.githubusercontent.com/36207058/55601969-63269e00-5731-11e9-8856-f783430d3259.gif)
+  
   - [ ] Steps to recreate: Make a new post >> Write the following javascript"<script type="text/javascript">alert("XSS");</script>" Publish it >> Then view to post!
  
 2. WordPress =>2.5 – 4.6 - Authenticated Stored Cross-Site Scripting (XSS) via Image frame 
@@ -20,6 +22,8 @@ Time spent: **6** hours spent in total
     - Tested in version:4.2
     - Fixed in version: 4.6.1
   - [ ] GIF Walkthrough: 
+  ![XSS2](https://user-images.githubusercontent.com/36207058/55601987-7afe2200-5731-11e9-88d8-4778b305d60f.gif)
+  
   - [ ] Steps to recreate: Upload a new image (.png) in library >> go to library >> Then click on that image >> Then in the title section, add the following JavaScript "<IMG SRC="#" ONERROR="alert('XSS')"/>" Then clck next to the image name.
  
 3. WordPress => 4.2 - User Authentication 
@@ -27,6 +31,8 @@ Time spent: **6** hours spent in total
     - Vulnerability types:User Authentication
     - Fixed in version: 4.2
   - [ ] GIF Walkthrough: 
+  ![user](https://user-images.githubusercontent.com/36207058/55602007-881b1100-5731-11e9-8ec8-8745f2f9a5ae.gif)
+  
   - [ ] Steps to recreate: Type "admin" as username and provide different password >> Try different name as username >> Then type different password as password.
   
 ## Assets
