@@ -12,7 +12,7 @@ Time spent: **6** hours spent in total
     - Tested in version:4.2
     - Fixed in version: 4.3
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: Make a new post >> write the following javascript"<script type="text/javascript">alert("XSS");</script>" Publish it >> Then view to post!
+  - [ ] Steps to recreate: Make a new post >> Write the following javascript"<script type="text/javascript">alert("XSS");</script>" Publish it >> Then view to post!
  
 2. WordPress =>2.5 – 4.6 - Authenticated Stored Cross-Site Scripting (XSS) via Image frame 
   - [ ] Summary: 
